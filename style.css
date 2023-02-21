@@ -102,3 +102,31 @@ ul li {
   background-color: var(--blanco_letra);
   color: var(--naranja);
 }
+@media screen and (min-width: 768px) {
+  .tarjeta {
+    width: 412px;
+    height: 415px;
+  }
+  .tarjeta-logo,
+  h2,
+  p {
+    margin-left: 35px;
+    margin-top: 30px;
+  }
+  p {
+    margin-right: 50px;
+  }
+  .tarjeta-rating {
+    margin-top: 10px;
+  }
+  .tarjeta-rating button {
+    margin-left: 28px;
+  }
+  #uno {
+    margin-left: 0;
+  }
+  .tarjeta-button button {
+    margin-top: 30px;
+    width: 340px;
+  }
+}
