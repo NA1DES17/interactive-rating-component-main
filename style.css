@@ -77,10 +77,10 @@ ul li {
 #uno {
   margin-left: 0;
 }
-.tarjeta-rating button:hover {
+/* .tarjeta-rating button:hover {
   background-color: var(--gris_hover);
   color: var(--blanco_letra);
-}
+} */
 .tarjeta-button {
   display: flex;
   justify-content: center;
