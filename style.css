@@ -22,6 +22,7 @@ body {
   width: 330px;
   border-radius: 15px;
   height: min-content;
+  display: none;
 }
 .tarjeta-logo {
   color: var(--naranja);
@@ -37,14 +38,14 @@ body {
 
   margin-top: 20.3px;
 }
-h2 {
+.tarjeta h2 {
   color: var(--blanco_letra);
   margin: 0;
   margin-left: 25px;
 
   margin-top: 20.3px;
 }
-p {
+.tarjeta p {
   margin: 0;
   margin-left: 25px;
   margin-right: 25px;
@@ -101,6 +102,50 @@ ul li {
 .tarjeta-button button:hover {
   background-color: var(--blanco_letra);
   color: var(--naranja);
+}
+.tarjeta-thankyou {
+  height: 358px;
+  width: 327px;
+  background-color: var(--fondo_tarjeta);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: none; */
+}
+.tarjeta-thankyou img {
+  /* border: solid 0.3px red; */
+  margin: 0;
+  width: 150px;
+  height: 100px;
+  margin-top: 35px;
+}
+.tarjeta-thankyou .mostador-rating {
+  width: 168px;
+  height: 33px;
+  background-color: var(--gris_fondo_circulos);
+  border-radius: 25px;
+  color: var(--naranja);
+  /* border: solid 0.3px red; */
+  margin: 0;
+  margin-top: 25px;
+}
+.tarjeta-thankyou h2 {
+  color: var(--blanco_letra);
+  /* border: solid 0.3px red; */
+  margin: 0;
+  margin-top: 30px;
+}
+.tarjeta-thankyou p {
+  /* border: solid 0.3px red; */
+  margin: 0;
+  text-align: center;
+  margin-left: 26px;
+  margin-right: 26px;
+  font-size: 14px;
+  margin-top: 25px;
+  /* margin-bottom: 45px; */
+  line-height: 17px;
 }
 @media screen and (min-width: 768px) {
   .tarjeta {
