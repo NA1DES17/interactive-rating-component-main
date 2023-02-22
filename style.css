@@ -174,4 +174,32 @@ ul li {
     margin-top: 30px;
     width: 340px;
   }
+  .tarjeta-thankyou {
+    width: 411px;
+    height: 415px;
+  }
+  .tarjeta-thankyou img {
+    width: 165px;
+    height: 110px;
+    margin: 0;
+    margin-top: 45px;
+  }
+  .tarjeta-thankyou .mostador-rating {
+    width: 190px;
+    height: 32px;
+    margin: 0;
+    margin-top: 32px;
+  }
+  .tarjeta-thankyou h2 {
+    font-weight: 700;
+    margin: 0;
+    margin-top: 40px;
+  }
+  .tarjeta-thankyou p {
+    line-height: 20px;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 47px;
+    margin-right: 47px;
+  }
 }
